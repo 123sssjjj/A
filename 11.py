@@ -13,7 +13,7 @@ def notification(self, html):
         # 支持多用户接收邮件
         msg['To'] = self.to
         msg['Cc'] = self.cc
-        meilishuo.org
+        mail.mogujie.com
         text = MIMEText(html, 'html', 'utf-8')
         msg.attach(text)
         host = get('mail', 'host').strip()
